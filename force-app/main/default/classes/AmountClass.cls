@@ -4,6 +4,8 @@ public class AmountClass {
         for(Opportunity opport : o){
             if(opport.Amount == null){
                 opport.Amount =0;
+
+                
             }else{
                 opport.Amount *=10;
             }
