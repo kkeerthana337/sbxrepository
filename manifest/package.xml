@@ -32,5 +32,25 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>Opportunity</members>
+        <name>Workflow</name>
+    </types>  
+   <types>
+        <members>Opportunity.Private is true</members>
+        <name>WorkflowRule</name>
+    </types>
+   <types>
+        <members>Opportunity.Update_Delivery_Installation_Status</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <member>*</members>
+        <name>Flow</name>
+    </types>
+     <types>
+<members>Opportunity.Stage_Closed_won</members>
+        <name>ValidationRule</name>
+    </types>  
     <version>52.0</version>
 </Package>
