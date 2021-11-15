@@ -11,6 +11,7 @@ public class AmountTestClass {
         insert o;
         System.debug(o);
         
+        
         Opportunity o1 = new Opportunity();
         o1.Name ='ABC';
         o1.StageName = 'Closed Won';
