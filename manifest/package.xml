@@ -45,10 +45,11 @@
         <name>WorkflowFieldUpdate</name>
     </types>
     <types>
-<members>*</members>
-<name>Flow</name>
-</types>
-<members>Opportunity.Stage_Closed_won</members>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Opportunity.Stage_Closed_won</members>
         <name>ValidationRule</name>
     </types>  
     <version>52.0</version>
