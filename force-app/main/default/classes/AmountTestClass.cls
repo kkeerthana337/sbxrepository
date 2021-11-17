@@ -9,8 +9,6 @@ public class AmountTestClass {
         o.CloseDate = System.today();
         o.Amount = 200;
         insert o;
-        System.debug(o);
-        
         
         Opportunity o1 = new Opportunity();
         o1.Name ='ABC';
