@@ -5,6 +5,7 @@ public class AmountTestClass {
         test.startTest();
         Opportunity o = new Opportunity();
         o.Name ='ABC';
+        
         o.StageName = 'Closed Won';
         o.CloseDate = System.today();
         o.Amount = 200;
