@@ -4,7 +4,7 @@ public class AmountTestClass {
     static testMethod void method1() {
         test.startTest();
         Opportunity o = new Opportunity();
-        o.Name ='Keerthana';
+        o.Name ='Test';
         o.StageName = 'Closed Won';
         o.CloseDate = System.today();
         o.Amount = 200;
