@@ -4,11 +4,12 @@ public class AmountTestClass {
     static testMethod void method1() {
         test.startTest();
         Opportunity o = new Opportunity();
-        o.Name ='Test';
+        o.Name ='ABSYZ';
         o.StageName = 'Closed Won';
         o.CloseDate = System.today();
         o.Amount = 200;
         insert o;
+        System.debug('Deployment Demo');
         
         Opportunity o1 = new Opportunity();
         o1.Name ='ABC';
